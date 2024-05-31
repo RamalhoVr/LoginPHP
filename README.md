@@ -74,7 +74,7 @@ This is a PHP code example for a simple login form. It consists of a form that p
 3. Next, the PHP code retrieves the username and password submitted through the form using the $_POST variable.
 4. The `puxardados` function is called, passing the username, password, and database connection as arguments.
 5. The function performs a database query to check if the username exists.
-6. If the query returns any rows, it displays the message "Logged in successfully." Otherwise, it displays the message "Error occurred, my friend."
+6. If the query returns any rows, it displays the message "Logged in successfully." Otherwise, it displays the message "Something went wrong, check your data and try again."
 7. Finally, the database connection is closed.
 
 # Database Connection Settings
@@ -86,7 +86,7 @@ This PHP code contains the necessary settings to establish a connection to the d
 - Database username: `root`
 - Database password: `''` (empty)
 - Database server: `localhost`
-- Database name: `bdmichelramalho`
+- Database name: `bdramalho`
 
 After correctly configuring the database information, you can use the `$conexao` variable to perform queries and operations on the desired database.
 
