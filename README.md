@@ -38,7 +38,7 @@ Este código PHP contém as configurações necessárias para estabelecer a cone
 - Nome de usuário do banco de dados: `root`
 - Senha do banco de dados: `''` (vazio)
 - Servidor do banco de dados: `localhost`
-- Nome do banco de dados: `bdmichelramalho`
+- Nome do banco de dados: `bdramalho`
 
 
 Após configurar corretamente as informações do banco de dados, você pode utilizar a variável `$conexao` para realizar consultas e operações no banco de dados desejado.
