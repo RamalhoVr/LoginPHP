@@ -26,7 +26,7 @@ Este é um exemplo de código PHP para um formulário de login simples. Ele cons
 3. Em seguida, o código PHP obtém o nome de usuário e a senha enviados pelo formulário usando a variável $_POST.
 4. A função `puxardados` é chamada, passando o nome de usuário, a senha e a conexão com o banco de dados como argumentos.
 5. A função realiza uma consulta no banco de dados para verificar se o nome de usuário existe.
-6. Se a consulta retornar alguma linha, exibe a mensagem "logado com sucesso". Caso contrário, exibe a mensagem "deu erro pae".
+6. Se a consulta retornar alguma linha, exibe a mensagem "logado com sucesso". Caso contrário, exibe a mensagem "Algo deu errado, verifique seus dados e tente novamente.".
 7. Por fim, a conexão com o banco de dados é fechada.
 
    # Configurações de conexão com o banco de dados
