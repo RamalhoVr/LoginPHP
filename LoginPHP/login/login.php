@@ -72,7 +72,7 @@ function puxardados($login, $senha, $conexao){
     if (mysqli_num_rows($user) > 0) {
         echo "logado com sucesso"; // Mensagem de login bem-sucedido
     } else {
-        echo "deu erro pae"; // Mensagem de erro
+        echo "Algo estava errado, verifique seus dados, e tente novamente"; // Mensagem de erro
     }
 
     // Fechar a conexão com o banco de dados
